@@ -91,7 +91,7 @@ export const AboutSection: React.FC = () => {
                 </div>
               </div>
 
-              <div className="absolute -top-6 -right-6 w-12 h-12 bg-yellow-400 rounded-full opacity-80"></div>
+              <div className="absolute -top-6 -right-6 w-10 lg:w-12 h-10 lg:h-12 bg-yellow-400 rounded-full opacity-80"></div>
               <div className="absolute -bottom-4 -left-4 w-8 h-8 bg-blue-400 rounded-full opacity-60"></div>
             </div>
           </div>
