@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 export const AboutSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -91,7 +91,6 @@ export const AboutSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* Decorative elements */}
               <div className="absolute -top-6 -right-6 w-12 h-12 bg-yellow-400 rounded-full opacity-80"></div>
               <div className="absolute -bottom-4 -left-4 w-8 h-8 bg-blue-400 rounded-full opacity-60"></div>
             </div>

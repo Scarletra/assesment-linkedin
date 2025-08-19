@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Target, Users, TrendingUp, Award } from 'lucide-react';
 
 interface Benefit {

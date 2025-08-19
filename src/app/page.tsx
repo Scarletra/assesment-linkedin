@@ -1,4 +1,4 @@
-import { HeroSection, AboutSection, BenefitsSection } from "./section";
+import { HeroSection, AboutSection, BenefitsSection, TestimonialsSection } from ".";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <BenefitsSection />
+      <TestimonialsSection />
     </div>
   );
 }
