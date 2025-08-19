@@ -1,11 +1,11 @@
-import AboutSection from "./section/AboutUs";
-import HeroSection from "./section/Hero";
+import { HeroSection, AboutSection, BenefitsSection } from "./section";
 
 export default function Home() {
   return (
     <div>
       <HeroSection />
       <AboutSection />
+      <BenefitsSection />
     </div>
   );
 }

@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 
-const AboutSection: React.FC = () => {
+export const AboutSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
 
@@ -79,7 +79,6 @@ const AboutSection: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Stats Cards */}
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white rounded-xl p-4 shadow-md border border-gray-100">
                     <div className="text-2xl font-bold text-blue-600">2.5x</div>
@@ -102,5 +101,3 @@ const AboutSection: React.FC = () => {
     </section>
   );
 };
-
-export default AboutSection;

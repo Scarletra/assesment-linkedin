@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronRight } from 'lucide-react';
 
-const HeroSection: React.FC = () => {
+export const HeroSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -112,5 +112,3 @@ const HeroSection: React.FC = () => {
     </section>
   );
 };
-
-export default HeroSection;
