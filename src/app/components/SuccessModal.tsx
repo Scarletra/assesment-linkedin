@@ -1,9 +1,8 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
-import { Clock, Users, CheckCircle, ArrowRight } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { CheckCircle } from 'lucide-react';
 
-// TypeScript interfaces
 interface SuccessModalProps {
   isOpen: boolean;
   onClose: () => void;
