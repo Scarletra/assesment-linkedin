@@ -47,11 +47,7 @@ export const AboutSection: React.FC = () => {
             
             <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
               <p>
-                Dalam era digital ini, LinkedIn bukan hanya platform networking biasa—ini adalah gateway menuju peluang karir yang tak terbatas. Kelas ini dirancang khusus untuk profesional yang ingin memaksimalkan potensi LinkedIn dalam mengembangkan karir mereka.
-              </p>
-              
-              <p>
-                Melalui pendekatan praktis dan strategi yang telah terbukti, Anda akan belajar cara membangun personal brand yang kuat, memperluas network profesional, dan menarik perhatian recruiter top di industri Anda. Program 6 minggu ini akan mengubah cara Anda menggunakan LinkedIn forever.
+                Dalam era digital yang semakin kompetitif, LinkedIn bukan sekadar platform untuk networking biasa, melainkan sebuah gerbang strategis menuju peluang karier tanpa batas. Di sinilah para profesional, entrepreneur, hingga fresh graduate dapat menunjukkan jati diri mereka, membangun reputasi yang kredibel, serta terhubung dengan para decision maker di berbagai industri. Kelas intensif ini dirancang secara khusus bagi Anda yang ingin mengoptimalkan potensi LinkedIn dengan cara yang tepat sasaran. Selama 6 minggu, Anda akan dibimbing untuk memahami cara membangun personal brand yang autentik, menulis profil yang memikat, serta membagikan konten yang relevan sehingga menarik perhatian recruiter maupun calon partner bisnis. Tidak hanya itu, Anda juga akan belajar strategi memperluas jaringan secara efektif, berinteraksi dengan komunitas profesional, hingga memanfaatkan fitur-fitur LinkedIn untuk mendukung pertumbuhan karier maupun bisnis.
               </p>
             </div>
           </div>

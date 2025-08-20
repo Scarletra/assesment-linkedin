@@ -51,9 +51,7 @@ export const CTASection: React.FC = () => {
   }, []);
 
   const handleRegistration = () => {
-    // Handle registration logic here
     console.log('Registration clicked');
-    // You can add form modal or redirect to registration page
   };
 
   return (
