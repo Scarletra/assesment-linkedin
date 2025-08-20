@@ -64,6 +64,11 @@ export const BenefitsSection: React.FC = () => {
     return () => observer.disconnect();
   }, []);
 
+  const handleCTAClick = () => {
+    const registrationSection = document.getElementById('registration');
+    registrationSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section 
       ref={sectionRef}
@@ -134,7 +139,10 @@ export const BenefitsSection: React.FC = () => {
             <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
               Bergabunglah dengan 500+ profesional yang telah merasakan transformasi karir melalui program ini
             </p>
-            <button className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-50 transition-colors">
+            <button 
+              onClick={handleCTAClick}
+              className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-50 transition-colors cursor-pointer"
+            >
               Mulai Perjalanan Anda
             </button>
           </div>
