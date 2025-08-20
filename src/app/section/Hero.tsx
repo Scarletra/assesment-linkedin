@@ -45,7 +45,7 @@ export const HeroSection: React.FC = () => {
 
             <button
               onClick={handleCTAClick}
-              className="group inline-flex items-center gap-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-8 py-4 rounded-full font-semibold text-lg shadow-2xl hover:shadow-yellow-500/25 transform hover:-translate-y-1 transition-all duration-300 hover:scale-105"
+              className="cursor-pointer group inline-flex items-center gap-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-8 py-4 rounded-full font-semibold text-lg shadow-2xl hover:shadow-yellow-500/25 transform hover:-translate-y-1 transition-all duration-300 hover:scale-105"
             >
               Daftar Sekarang
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
