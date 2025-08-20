@@ -73,7 +73,7 @@ export const Navbar = () => {
               <div className="w-8 h-8 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg flex items-center justify-center">
                 <span className="text-gray-900 font-bold text-sm">L</span>
               </div>
-              <span className="text-white font-bold text-lg">Belajar LinkedIn</span>
+              <span className="text-white font-bold text-lg">BelajarLinkedIn.id</span>
             </div>
           </div>
 
@@ -92,7 +92,7 @@ export const Navbar = () => {
           <div className="hidden md:flex">
             <button
               onClick={() => scrollToSection('registration')}
-              className="group inline-flex items-center gap-2 bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-6 py-2 rounded-full font-semibold text-sm shadow-lg hover:shadow-yellow-500/25 transform hover:-translate-y-0.5 transition-all duration-300"
+              className="cursor-pointer group inline-flex items-center gap-2 bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-6 py-2 rounded-full font-semibold text-sm shadow-lg hover:shadow-yellow-500/25 transform hover:-translate-y-0.5 transition-all duration-300"
             >
               Daftar Sekarang
               <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
